@@ -1,8 +1,8 @@
 "use client"
 import DashboardEvento from "@/components/evento/DashboardEvento";
 import FormSenhaEvento from "@/components/evento/FormSenhaEvento";
-import { eventos } from "@/core/constants";
-import { Convidado, Evento } from "@/core/evento";
+import { eventos } from "core";
+import { Convidado, Evento } from "core";
 import { use, useEffect, useState } from "react";
 
 export default function PaginaAdminEvento(props: any) {

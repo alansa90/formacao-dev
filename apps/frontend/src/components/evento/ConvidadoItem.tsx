@@ -1,4 +1,4 @@
-import { Convidado } from "@/core/evento"
+import { Convidado } from "core/evento"
 
 export interface ConvidadoItemProps {
   convidado: Convidado;

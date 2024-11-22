@@ -14,7 +14,7 @@ export default function complementarEvento(
   const evento: Evento = {
     ...eventoParcial,
     id: eventoParcial.id ?? Id.novo(),
-    senha: Senha.nova(),
+    senha: eventoParcial.senha ?? Senha.nova(),
     publicoEsperado: +(eventoParcial.publicoEsperado ?? 1),
   } as Evento;
 

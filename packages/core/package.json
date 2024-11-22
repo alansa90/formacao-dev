@@ -16,7 +16,6 @@
     "tsup": "^8.3.5"
   },
   "dependencies": {
-    "core": "file:",
     "uuid": "^11.0.3"
   }
 }
